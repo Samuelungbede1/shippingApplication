@@ -5,7 +5,6 @@ import 'package:get/get.dart';
 import 'package:get/get_core/src/get_main.dart';
 import 'package:monie_point/use_cases/shipment_history/widgets/shipment_card.dart';
 
-import '../../../res/base_styles.dart';
 import '../../../util/app_strings.dart';
 import '../../../util/base_styles.dart';
 import '../../home/controller/home_controller.dart';

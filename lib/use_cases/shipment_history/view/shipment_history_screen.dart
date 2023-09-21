@@ -90,8 +90,7 @@ class _ShipmentHistoryScreenState extends State<ShipmentHistoryScreen>
     super.dispose();
   }
 
-  /// Some Dummy Data that will be replaced
-  ///
+
   final List<String> tabs = [
     'All',
     'Completed',
