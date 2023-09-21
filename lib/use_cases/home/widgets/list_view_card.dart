@@ -81,7 +81,6 @@ class _ListViewCardState extends State<ListViewCard>
                   style: subtitleText,
                   textAlign: TextAlign.center,
                 ),
-                SizedBox(height: 2.0.h),
                 Expanded(
                   child: Container(
                     decoration: BoxDecoration(
@@ -91,7 +90,7 @@ class _ListViewCardState extends State<ListViewCard>
                     ),
                     child: Image.asset(
                       'assets/images/bus.png',
-                      height: 90,
+                      height: 90.h,
                       width: 230,
                     ),
                   ),

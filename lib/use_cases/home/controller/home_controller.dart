@@ -9,7 +9,7 @@ class HomeController extends GetxController {
   RxBool visible = true.obs;
   late AnimationController animatedSizeBoxHeight;
   RxDouble begin = 5.0.obs;
-  RxDouble end = 45.0.obs;
+  RxDouble end = 55.0.obs;
   RxDouble appBarHeightBegin = 180.0.obs;
   RxDouble appBarHeightEnd = 100.0.obs;
 

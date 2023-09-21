@@ -15,6 +15,7 @@ import '../../../util/app_strings.dart';
 import '../../../util/base_styles.dart';
 import '../../../util/navigation_builder.dart';
 import '../../../util/navigation_functions.dart';
+import '../../home/controller/home_controller.dart';
 import '../../home/widgets/custom_search_bar.dart';
 import '../../home/widgets/shipment_card.dart';
 import '../../nav_wrapper/controller/nav_wrapper_controller.dart';
@@ -42,6 +43,7 @@ class _CalculateScreenState extends State<CalculateScreen>
   late Animation<double> _arrowIconAnim;
   late Animation<double> _appBarTextAnim;
   late AnimationController animatedSizeBoxHeight;
+  final HomeController homeController = Get.put(HomeController());
 
 
   /// Some Dummy Data that will be replaced

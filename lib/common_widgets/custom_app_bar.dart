@@ -105,7 +105,7 @@ class _CustomAppBarContainerState extends State<CustomAppBarContainer>
                     children: [
                       SizedBox(height: appBarHeight.value),
                       Container(
-                        height: homeController.visible.isFalse
+                        height: !homeController.visible.value
                             ? widget.animatedHeight
                             : 160,
                         color: AppColorPalette.violet,
@@ -180,7 +180,7 @@ class _CustomAppBarContainerState extends State<CustomAppBarContainer>
                                           ],
                                         ),
                                         SizedBox(
-                                          width: 120.w,
+                                          width: 240.w,
                                         ),
                                         Container(
                                           decoration: const BoxDecoration(
@@ -227,7 +227,6 @@ class _CustomAppBarContainerState extends State<CustomAppBarContainer>
                                           ),
                                           color: AppColorPalette.white,
                                           onPressed: () {
-                                            homeController.visible.value = true;
                                             homeController.searchFieldFocus.unfocus();
                                           },
                                         ),

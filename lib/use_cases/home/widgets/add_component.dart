@@ -13,7 +13,7 @@ class AddComponent extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: EdgeInsets.symmetric(horizontal: 50.0.w, vertical: 0),
+      padding: EdgeInsets.symmetric(horizontal: 30.0.w, vertical: 0),
       child: Column(
         children: [
           SizedBox(
